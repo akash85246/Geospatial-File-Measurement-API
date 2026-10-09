@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Pune survey sample</name>
+<Folder><name>Parcels</name>
+<Placemark><name>Parcel A</name><description>North plot</description><ExtendedData><Data name="owner"><value>Asha Rao</value></Data></ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>73.8500000,18.5200000 73.8510000,18.5200000 73.8510000,18.5210000 73.8500000,18.5210000 73.8500000,18.5200000</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Parcel B (with hole)</name><Polygon><outerBoundaryIs><LinearRing><coordinates>73.8520000,18.5200000 73.8540000,18.5200000 73.8540000,18.5220000 73.8520000,18.5220000 73.8520000,18.5200000</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>73.8527000,18.5207000 73.8533000,18.5207000 73.8533000,18.5213000 73.8527000,18.5213000 73.8527000,18.5207000</coordinates></LinearRing></innerBoundaryIs></Polygon></Placemark>
+</Folder>
+<Folder><name>Roads</name>
+<Placemark><name>Road 1</name><LineString><coordinates>73.8500000,18.5230000 73.8520000,18.5230000 73.8520000,18.5250000 73.8545000,18.5250000</coordinates></LineString></Placemark>
+</Folder>
+<Folder><name>Wells</name>
+<Placemark><name>Well 1</name><Point><coordinates>73.8505000,18.5205000</coordinates></Point></Placemark>
+</Folder>
+</Document>
+</kml>
